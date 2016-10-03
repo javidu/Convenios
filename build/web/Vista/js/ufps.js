@@ -25,7 +25,7 @@
  */
 
 function openModal(id) {
-  let modal = document.getElementById(id);
+//  let modal = document.getElementById(id);
   modal.style.display = "block";
   var close = document.getElementsByClassName("ufps-modal-close");
   for (i = 0; i < close.length; i++) {
@@ -186,14 +186,13 @@ function toggleMenu(id) {
       right.style.opacity = "1";
     }, 100);
   } else {
-    left.style.opacity = "0";
-    right.style.opacity = "0";
+    left.style.opacity = "";
+    right.style.opacity = "";
     setTimeout(function() {
-      left.style.display = "none";
-      right.style.display = "none";
+      left.style.display = "";
+      right.style.display = "";
     }, 210);
   }
-
 }
 
 /**

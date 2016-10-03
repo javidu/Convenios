@@ -441,7 +441,6 @@ textarea {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  
 }
 
 @media (min-width: 768px) {
@@ -480,6 +479,45 @@ textarea {
   }
 }
 
+@media (min-width: 768px) {
+  .ufps-navbar {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ufps-navbar {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ufps-navbar {
+    width: 1170px;
+  }
+  .ufps-navbar-left {
+    opacity: 1;
+    display: 'block';
+  }
+}
+
+@media (min-width: 992px) {
+  .Banner {
+    width: 970px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Banner {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #banner {
+    width: 1170px;
+  }
+}
 
 
 .ufps-container-fluid {
@@ -487,6 +525,7 @@ textarea {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 
 .ufps-col-tablet-1,
@@ -1430,8 +1469,9 @@ textarea {
   border-bottom: 3px solid #9d0609;
   color: #FFF;
   height: 50px;
+  text-align: center;
   margin-bottom: 20px;
-  width: 100%;
+  
   z-index: 10;
 }
 
@@ -1488,17 +1528,16 @@ textarea {
   box-sizing: border-box;
   color: #FFF;
   display: inline-block;
+   border-bottom: 3px solid #9d0609;
   font-size: 16px;
-  height: 40px;
+  height: 50px;
   line-height: 20px;
   padding: 20px 10px;
-  cursor: pointer;
- 
-  
-  
-  
+   cursor: pointer;
    
 }
+
+
 
 .ufps-navbar .ufps-navbar-btn.ufps-active {
   font-weight: bold;
@@ -1595,6 +1634,13 @@ textarea {
 @media (min-width:992px) {
   .ufps-btn-menu {
     display: none;
+  }
+}
+
+@media (min-width:992px) {
+  .ufps-navbar-left{
+    opacity: 1;
+    display: block;
   }
 }
 
