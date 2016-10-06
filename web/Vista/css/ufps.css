@@ -1936,6 +1936,50 @@ textarea {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+#iniciosesion {
+  
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 200px;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#myCarousel {
+    left: 350px;
+    height: 250px;
+    width: 350px;
+    background: #fff;
+    
+}
+
+.carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                width: 70%;
+                margin: auto;
+            }           
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+
+}
+
 .ufps-modal-content {
   position: relative;
   background-color: #fefefe;
@@ -2209,6 +2253,29 @@ textarea {
   max-height: 500px;
 }
 
+/*Panels */
+
+.panel {
+    padding-top: 30px;
+    background: #d61117;
+   
+   
+}
+
+.panel-heading {
+    
+    background: #d61117;
+    color: #fff;
+    
+}
+
+.panel-body {
+    
+}
+
+#contenedor-convenios {
+   
+}
 
 /* Tabs */
 

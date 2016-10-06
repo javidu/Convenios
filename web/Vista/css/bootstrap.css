@@ -4084,11 +4084,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #fff;
   }
 }
+
+#navegacion-convenios > li{
+  
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 30%; 
+}
+#navegacion-li-convenios > a {
+    width: 220px;
+    left: 120px;
+}
+
 .nav-pills > li {
   float: left;
+  
+  
 }
 .nav-pills > li > a {
+  
   border-radius: 4px;
+  color: #fff;
+  
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -4107,7 +4124,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: 0;
 }
 .nav-justified {
-  width: 100%;
+  
 }
 .nav-justified > li {
   float: none;
@@ -4115,6 +4132,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-justified > li > a {
   margin-bottom: 5px;
   text-align: center;
+  
 }
 .nav-justified > .dropdown .dropdown-menu {
   top: auto;
@@ -4126,7 +4144,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     width: 1%;
   }
   .nav-justified > li > a {
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: 0px; 
   }
 }
 .nav-tabs-justified {
@@ -6405,9 +6424,9 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  background-color: #d61117;
+ 
+  border: 1px solid #d61117;
   border-radius: 10px;
 }
 .carousel-indicators .active {
